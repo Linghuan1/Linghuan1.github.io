@@ -66,36 +66,6 @@ Go to [https://github.com](https://github.com) and sign up.
 4. Scroll down → write a commit message, e.g. `Initial portfolio upload`
 5. Click **"Commit changes"**
 
-> ⚠️ **Important:** GitHub Web uploader may not preserve folder structure for nested folders.
-> If `css/` and `js/` folders are not recognized, use **Option B** below.
-
----
-
-#### Option B — Upload via Git (Recommended)
-
-Make sure **Git** is installed: [https://git-scm.com/download/win](https://git-scm.com/download/win)
-
-Open **Command Prompt** in your project folder:
-
-```cmd
-cd "c:\Users\32034\1-2026-python\2.25\网站"
-
-REM Initialize git repo
-git init
-
-REM Add all files
-git add .
-
-REM First commit
-git commit -m "Initial portfolio commit"
-
-REM Connect to your GitHub repo (replace YOUR_USERNAME)
-git remote add origin https://github.com/YOUR_USERNAME/YOUR_USERNAME.github.io.git
-
-REM Push to GitHub
-git branch -M main
-git push -u origin main
-```
 
 ---
 
